@@ -1,0 +1,7 @@
+book_filename: "botany-book"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
+repo: https://github.com/Abhikumar86/botany-book
+output_dir: docs

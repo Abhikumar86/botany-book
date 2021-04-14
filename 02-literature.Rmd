@@ -1,0 +1,26 @@
+# (PART) Biochemistry {.unnumbered}
+
+# Biomolecules
+
+The most exciting aspect of chemistry deal with isolating thousands of compounds, small and big, from living organisms, determining their structure and if possible, synthesizing them. If one were to make a list of biomolecules, such a list would have thousands of organic compounds including amino acids, sugars, etc. We can call these biomolecules, metabolites. In animal tissues, one notices the presence of all such categories of compounds e.g., proteins, carbohydrates, fats, amino acids and nucleic acids. These are called primary metabolites. However, when one analyses plant, fungal and microbial cells, one would see thousands of compounds other than these primary metabolites e.g., alkaloids, flavonoids, rubber, essential oils, antibiotics, coloured pigments, scents, gums, spices, etc. These are called secondary metabolites (Table \@ref(tab:t1)). While primary metabolites have identifiable functions and play known roles in normal physiological processes, many secondary metabolites are useful to 'human welfare' (e.g., rubber, drugs, spices, scents and pigments). Some secondary metabolites have ecological importance.
+
+| Secondary Metabolites | Examples                        |
+|:----------------------|:--------------------------------|
+| Pigments              | Carotenoids, Anthocyanins, etc. |
+| Alkaloids             | Morphine, Codeine, etc.         |
+| Terpenoids            | Monoterpenes, Diterpenes, etc.  |
+| Essential oils        | Lemon grass oil, etc.           |
+| Toxins                | Abrin, Ricin                    |
+| Lectins               | Concanavalin                    |
+| Polymeric substances  | Rubber, Gums, Cellulose         |
+| Drugs                 | Vinblastine, curcumin, etc.     |
+
+: **(\#tab:t1) Some Secondary Metabolites**
+
+In both the cells and extra-cellular fluids dibasic phosphate (HPO~4~^2-^) and monobasic phosphate (H~2~PO~4~^--^) neutralise strong acids and bases respectively. So, they act as acid-base buffers to maintain the H+ ion concentration (pH) of cellular fluids. All the macromolecules except lipids are formed by the process of polymerisation, a process in which repeating sub-units termed monomers are bound into chains of different length (Polymers) e.g., Raffinose is trisaccharide formed by polymerisation of glucose, fructose and galactose.
+
+## Carbohydrates
+
+Carbohydrates are so called because in most of them, the proportion of hydrogen and oxygen is the same as in water (H~2~O) and the general formula may be written as C~n~H~2n~O~n~. Carbohydrates also possess more than one alcoholic (OH) group. 
+Carbohydrates are known as saccharides or compounds containing sugar. The simplest carbohydrates are the simple sugars or monosaccharides, many of which have the general formula C~n~H~2n~O~n~. These cannot be hydrolysed into still smaller carbohydrates. Monosaccharides are composed of 3 to 7 carbon atoms. They are classified according to the number of carbon atoms, as trioses (C~3~H~6~O~3~), tetroses (C~4~H~8~O~4~), pentoses (C~5~H~10~O~5~), hexoses (C~6~H~12~O~6~) and heptoses (C~7~H~14~O~7~) in that order. Hexoses and pentoses exist in both open chain and ring forms. Glucose, fructose and galactose are hexoses. They are all white, crystalline, sweet-tasting substances, extremely soluble in water. Ribose is a pentose and glyceraldehyde and dihydroxyacetone are trioses. These compounds have very important roles to play in the metabolism of cells as you will learn later. Glucose is the most important sugar occurring in animals.  Fructose is the commonest form of sugar in fruits.  Deoxyribose which occurs in deoxyribonucleic acid (DNA) is a pentose.
+
