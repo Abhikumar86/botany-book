@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Biomolecules | Botany: A Guide for Competitive Exams</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Biomolecules | Botany: A Guide for Competitive Exams" />
   <meta property="og:type" content="book" />
   
   
   <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta name="github-repo" content="abhikumar86/botany-book" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 2 Biomolecules | Botany: A Guide for Competitive Exams" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Abhishek Kumar" />
 
 
-<meta name="date" content="2021-04-14" />
+<meta name="date" content="2021-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,8 @@
   
 <link rel="prev" href="intro.html"/>
 <link rel="next" href="methods.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -51,6 +51,12 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 
 
 <style type="text/css">
@@ -118,6 +124,29 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -140,7 +169,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="part"><span><b>I Biochemistry</b></span></li>
 <li class="chapter" data-level="2" data-path="biomolecules.html"><a href="biomolecules.html"><i class="fa fa-check"></i><b>2</b> Biomolecules</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="biomolecules.html"><a href="biomolecules.html#carbohydrates"><i class="fa fa-check"></i><b>2.1</b> Carbohydrates</a></li>
+<li class="chapter" data-level="2.1" data-path="biomolecules.html"><a href="biomolecules.html#carbohydrates"><i class="fa fa-check"></i><b>2.1</b> Carbohydrates</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="biomolecules.html"><a href="biomolecules.html#monosaccharides"><i class="fa fa-check"></i><b>2.1.1</b> Monosaccharides</a></li>
+<li class="chapter" data-level="2.1.2" data-path="biomolecules.html"><a href="biomolecules.html#oligo"><i class="fa fa-check"></i><b>2.1.2</b> Oligo</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a></li>
 <li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a>
@@ -149,35 +182,48 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>4.2</b> Example two</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="6" data-path="anatomy-of-angiosperms.html"><a href="anatomy-of-angiosperms.html"><i class="fa fa-check"></i><b>6</b> Anatomy of Angiosperms</a></li>
 <li class="part"><span><b>II Diversity</b></span></li>
-<li class="chapter" data-level="6" data-path="biological-classification.html"><a href="biological-classification.html"><i class="fa fa-check"></i><b>6</b> Biological Classification</a>
+<li class="chapter" data-level="7" data-path="biological-classification.html"><a href="biological-classification.html"><i class="fa fa-check"></i><b>7</b> Biological Classification</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="biological-classification.html"><a href="biological-classification.html#the-living-world"><i class="fa fa-check"></i><b>6.1</b> The Living World</a></li>
-<li class="chapter" data-level="6.2" data-path="biological-classification.html"><a href="biological-classification.html#systematics-and-taxonomy"><i class="fa fa-check"></i><b>6.2</b> Systematics and Taxonomy</a>
+<li class="chapter" data-level="7.1" data-path="biological-classification.html"><a href="biological-classification.html#the-living-world"><i class="fa fa-check"></i><b>7.1</b> The Living World</a></li>
+<li class="chapter" data-level="7.2" data-path="biological-classification.html"><a href="biological-classification.html#systematics-and-taxonomy"><i class="fa fa-check"></i><b>7.2</b> Systematics and Taxonomy</a>
 <ul>
-<li class="chapter" data-level="6.2.1" data-path="biological-classification.html"><a href="biological-classification.html#diversity-of-life"><i class="fa fa-check"></i><b>6.2.1</b> Diversity of Life</a></li>
-<li class="chapter" data-level="6.2.2" data-path="biological-classification.html"><a href="biological-classification.html#need-of-classification"><i class="fa fa-check"></i><b>6.2.2</b> Need of Classification</a></li>
-<li class="chapter" data-level="6.2.3" data-path="biological-classification.html"><a href="biological-classification.html#systematics"><i class="fa fa-check"></i><b>6.2.3</b> Systematics</a></li>
-<li class="chapter" data-level="6.2.4" data-path="biological-classification.html"><a href="biological-classification.html#taxonomy"><i class="fa fa-check"></i><b>6.2.4</b> Taxonomy</a></li>
-<li class="chapter" data-level="6.2.5" data-path="biological-classification.html"><a href="biological-classification.html#taxonomic-hierarchy"><i class="fa fa-check"></i><b>6.2.5</b> Taxonomic Hierarchy</a></li>
+<li class="chapter" data-level="7.2.1" data-path="biological-classification.html"><a href="biological-classification.html#diversity-of-life"><i class="fa fa-check"></i><b>7.2.1</b> Diversity of Life</a></li>
+<li class="chapter" data-level="7.2.2" data-path="biological-classification.html"><a href="biological-classification.html#need-of-classification"><i class="fa fa-check"></i><b>7.2.2</b> Need of Classification</a></li>
+<li class="chapter" data-level="7.2.3" data-path="biological-classification.html"><a href="biological-classification.html#systematics"><i class="fa fa-check"></i><b>7.2.3</b> Systematics</a></li>
+<li class="chapter" data-level="7.2.4" data-path="biological-classification.html"><a href="biological-classification.html#taxonomy"><i class="fa fa-check"></i><b>7.2.4</b> Taxonomy</a></li>
+<li class="chapter" data-level="7.2.5" data-path="biological-classification.html"><a href="biological-classification.html#taxonomic-hierarchy"><i class="fa fa-check"></i><b>7.2.5</b> Taxonomic Hierarchy</a></li>
 </ul></li>
-<li class="chapter" data-level="6.3" data-path="biological-classification.html"><a href="biological-classification.html#species-concept-and-types"><i class="fa fa-check"></i><b>6.3</b> Species Concept and Types</a>
+<li class="chapter" data-level="7.3" data-path="biological-classification.html"><a href="biological-classification.html#species-concept-and-types"><i class="fa fa-check"></i><b>7.3</b> Species Concept and Types</a>
 <ul>
-<li class="chapter" data-level="6.3.1" data-path="biological-classification.html"><a href="biological-classification.html#species-concept"><i class="fa fa-check"></i><b>6.3.1</b> Species Concept</a></li>
-<li class="chapter" data-level="6.3.2" data-path="biological-classification.html"><a href="biological-classification.html#species-types"><i class="fa fa-check"></i><b>6.3.2</b> Species Types</a></li>
+<li class="chapter" data-level="7.3.1" data-path="biological-classification.html"><a href="biological-classification.html#species-concept"><i class="fa fa-check"></i><b>7.3.1</b> Species Concept</a></li>
+<li class="chapter" data-level="7.3.2" data-path="biological-classification.html"><a href="biological-classification.html#species-types"><i class="fa fa-check"></i><b>7.3.2</b> Species Types</a></li>
 </ul></li>
-<li class="chapter" data-level="6.4" data-path="biological-classification.html"><a href="biological-classification.html#nomenclature"><i class="fa fa-check"></i><b>6.4</b> Nomenclature</a>
+<li class="chapter" data-level="7.4" data-path="biological-classification.html"><a href="biological-classification.html#nomenclature"><i class="fa fa-check"></i><b>7.4</b> Nomenclature</a>
 <ul>
-<li class="chapter" data-level="6.4.1" data-path="biological-classification.html"><a href="biological-classification.html#standardisation-of-names"><i class="fa fa-check"></i><b>6.4.1</b> Standardisation of Names</a></li>
-<li class="chapter" data-level="6.4.2" data-path="biological-classification.html"><a href="biological-classification.html#terminology"><i class="fa fa-check"></i><b>6.4.2</b> Terminology</a></li>
-<li class="chapter" data-level="6.4.3" data-path="biological-classification.html"><a href="biological-classification.html#nomenclatural-types"><i class="fa fa-check"></i><b>6.4.3</b> Nomenclatural Types</a></li>
+<li class="chapter" data-level="7.4.1" data-path="biological-classification.html"><a href="biological-classification.html#standardisation-of-names"><i class="fa fa-check"></i><b>7.4.1</b> Standardisation of Names</a></li>
+<li class="chapter" data-level="7.4.2" data-path="biological-classification.html"><a href="biological-classification.html#terminology"><i class="fa fa-check"></i><b>7.4.2</b> Terminology</a></li>
+<li class="chapter" data-level="7.4.3" data-path="biological-classification.html"><a href="biological-classification.html#nomenclatural-types"><i class="fa fa-check"></i><b>7.4.3</b> Nomenclatural Types</a></li>
 </ul></li>
-<li class="chapter" data-level="6.5" data-path="biological-classification.html"><a href="biological-classification.html#taxonomic-literature"><i class="fa fa-check"></i><b>6.5</b> Taxonomic Literature</a>
+<li class="chapter" data-level="7.5" data-path="biological-classification.html"><a href="biological-classification.html#taxonomic-literature"><i class="fa fa-check"></i><b>7.5</b> Taxonomic Literature</a>
 <ul>
-<li class="chapter" data-level="6.5.1" data-path="biological-classification.html"><a href="biological-classification.html#important-contributions-of-linnaeus"><i class="fa fa-check"></i><b>6.5.1</b> Important Contributions of Linnaeus</a></li>
-<li class="chapter" data-level="6.5.2" data-path="biological-classification.html"><a href="biological-classification.html#important-taxonomic-publications"><i class="fa fa-check"></i><b>6.5.2</b> Important Taxonomic Publications</a></li>
+<li class="chapter" data-level="7.5.1" data-path="biological-classification.html"><a href="biological-classification.html#important-contributions-of-linnaeus"><i class="fa fa-check"></i><b>7.5.1</b> Important Contributions of Linnaeus</a></li>
+<li class="chapter" data-level="7.5.2" data-path="biological-classification.html"><a href="biological-classification.html#important-taxonomic-publications"><i class="fa fa-check"></i><b>7.5.2</b> Important Taxonomic Publications</a></li>
 </ul></li>
-<li class="chapter" data-level="6.6" data-path="biological-classification.html"><a href="biological-classification.html#taxonomical-aids"><i class="fa fa-check"></i><b>6.6</b> Taxonomical Aids</a></li>
+<li class="chapter" data-level="7.6" data-path="biological-classification.html"><a href="biological-classification.html#taxonomical-aids"><i class="fa fa-check"></i><b>7.6</b> Taxonomical Aids</a></li>
+</ul></li>
+<li class="part"><span><b>III Structure and Development</b></span></li>
+<li class="chapter" data-level="8" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html"><i class="fa fa-check"></i><b>8</b> Morphology of Angiosperms</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#classification"><i class="fa fa-check"></i><b>8.1</b> Classification</a></li>
+<li class="chapter" data-level="8.2" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#roots"><i class="fa fa-check"></i><b>8.2</b> Roots</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#characters"><i class="fa fa-check"></i><b>8.2.1</b> Characters</a></li>
+<li class="chapter" data-level="8.2.2" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#parts-of-roots"><i class="fa fa-check"></i><b>8.2.2</b> Parts of Roots</a></li>
+<li class="chapter" data-level="8.2.3" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#types-of-roots"><i class="fa fa-check"></i><b>8.2.3</b> Types of Roots</a></li>
+<li class="chapter" data-level="8.2.4" data-path="morphology-of-angiosperms.html"><a href="morphology-of-angiosperms.html#modifications"><i class="fa fa-check"></i><b>8.2.4</b> Modifications</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -204,54 +250,137 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">Chapter 2</span> Biomolecules</h1>
 <p>The most exciting aspect of chemistry deal with isolating thousands of compounds, small and big, from living organisms, determining their structure and if possible, synthesizing them. If one were to make a list of biomolecules, such a list would have thousands of organic compounds including amino acids, sugars, etc. We can call these biomolecules, metabolites. In animal tissues, one notices the presence of all such categories of compounds e.g., proteins, carbohydrates, fats, amino acids and nucleic acids. These are called primary metabolites. However, when one analyses plant, fungal and microbial cells, one would see thousands of compounds other than these primary metabolites e.g., alkaloids, flavonoids, rubber, essential oils, antibiotics, coloured pigments, scents, gums, spices, etc. These are called secondary metabolites (Table <a href="biomolecules.html#tab:t1">2.1</a>). While primary metabolites have identifiable functions and play known roles in normal physiological processes, many secondary metabolites are useful to ‘human welfare’ (e.g., rubber, drugs, spices, scents and pigments). Some secondary metabolites have ecological importance.</p>
 <table>
-<caption><strong><span id="tab:t1">Table 2.1: </span> Some Secondary Metabolites</strong></caption>
+<caption>
+<span id="tab:t1">Table 2.1: </span>Some Secondary Metabolites
+</caption>
 <thead>
-<tr class="header">
-<th align="left">Secondary Metabolites</th>
-<th align="left">Examples</th>
+<tr>
+<th style="text-align:left;color: #fff !important;background-color: #666 !important;">
+Secondary Metabolites
+</th>
+<th style="text-align:left;color: #fff !important;background-color: #666 !important;">
+Examples
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left">Pigments</td>
-<td align="left">Carotenoids, Anthocyanins, etc.</td>
+<tr>
+<td style="text-align:left;">
+Pigments
+</td>
+<td style="text-align:left;">
+Carotenoids, Anthocyanins
+</td>
 </tr>
-<tr class="even">
-<td align="left">Alkaloids</td>
-<td align="left">Morphine, Codeine, etc.</td>
+<tr>
+<td style="text-align:left;">
+Alkaloids
+</td>
+<td style="text-align:left;">
+Morphine, Codeine
+</td>
 </tr>
-<tr class="odd">
-<td align="left">Terpenoids</td>
-<td align="left">Monoterpenes, Diterpenes, etc.</td>
+<tr>
+<td style="text-align:left;">
+Terpenoids
+</td>
+<td style="text-align:left;">
+Monoterpenes, Diterpenes
+</td>
 </tr>
-<tr class="even">
-<td align="left">Essential oils</td>
-<td align="left">Lemon grass oil, etc.</td>
+<tr>
+<td style="text-align:left;">
+Essential oils
+</td>
+<td style="text-align:left;">
+Lemon grass oil
+</td>
 </tr>
-<tr class="odd">
-<td align="left">Toxins</td>
-<td align="left">Abrin, Ricin</td>
+<tr>
+<td style="text-align:left;">
+Toxins
+</td>
+<td style="text-align:left;">
+Abrin, Ricin
+</td>
 </tr>
-<tr class="even">
-<td align="left">Lectins</td>
-<td align="left">Concanavalin</td>
+<tr>
+<td style="text-align:left;">
+Lectins
+</td>
+<td style="text-align:left;">
+Concanavalin
+</td>
 </tr>
-<tr class="odd">
-<td align="left">Polymeric substances</td>
-<td align="left">Rubber, Gums, Cellulose</td>
+<tr>
+<td style="text-align:left;">
+Polymeric substances
+</td>
+<td style="text-align:left;">
+Rubber, Gums, Cellulose
+</td>
 </tr>
-<tr class="even">
-<td align="left">Drugs</td>
-<td align="left">Vinblastine, curcumin, etc.</td>
+<tr>
+<td style="text-align:left;">
+Drugs
+</td>
+<td style="text-align:left;">
+Vinblastine, curcumin
+</td>
 </tr>
 </tbody>
 </table>
 <p>In both the cells and extra-cellular fluids dibasic phosphate (HPO<sub>4</sub><sup>2-</sup>) and monobasic phosphate (H<sub>2</sub>PO<sub>4</sub><sup>–</sup>) neutralise strong acids and bases respectively. So, they act as acid-base buffers to maintain the H+ ion concentration (pH) of cellular fluids. All the macromolecules except lipids are formed by the process of polymerisation, a process in which repeating sub-units termed monomers are bound into chains of different length (Polymers) e.g., Raffinose is trisaccharide formed by polymerisation of glucose, fructose and galactose.</p>
 <div id="carbohydrates" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Carbohydrates</h2>
-<p>Carbohydrates are so called because in most of them, the proportion of hydrogen and oxygen is the same as in water (H<sub>2</sub>O) and the general formula may be written as C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>. Carbohydrates also possess more than one alcoholic (OH) group.
-Carbohydrates are known as saccharides or compounds containing sugar. The simplest carbohydrates are the simple sugars or monosaccharides, many of which have the general formula C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>. These cannot be hydrolysed into still smaller carbohydrates. Monosaccharides are composed of 3 to 7 carbon atoms. They are classified according to the number of carbon atoms, as trioses (C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>), tetroses (C<sub>4</sub>H<sub>8</sub>O<sub>4</sub>), pentoses (C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>), hexoses (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) and heptoses (C<sub>7</sub>H<sub>14</sub>O<sub>7</sub>) in that order. Hexoses and pentoses exist in both open chain and ring forms. Glucose, fructose and galactose are hexoses. They are all white, crystalline, sweet-tasting substances, extremely soluble in water. Ribose is a pentose and glyceraldehyde and dihydroxyacetone are trioses. These compounds have very important roles to play in the metabolism of cells as you will learn later. Glucose is the most important sugar occurring in animals. Fructose is the commonest form of sugar in fruits. Deoxyribose which occurs in deoxyribonucleic acid (DNA) is a pentose.</p>
+<p>Carbohydrates are so called because in most of them, the proportion of hydrogen and oxygen is the same as in water (H<sub>2</sub>O) and the general formula may be written as C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>. Carbohydrates also possess more than one alcoholic (-OH) group.
+* Carbohydrates are the most abundant organic molecules in nature.
+* They are the primary energy-storage molecules in most living organisms.
+* Carbohydrate polymers also called <strong>glycans</strong>.
+* Complex carbohydrate polymers covalently attached to proteins or lipids called <strong>glycoconjugates</strong>.
+* The carbohydrates can be classified according to the number of sugar subunits they contain.
+* Monosaccharides: simple sugars, consist of a single polyhydroxy aldehyde or ketone unit
+* Oligosaccharides: Oligosaccharides consist of short chains of monosaccharide units, or residues, joined by characteristic linkages called <strong>glycosidic bonds</strong>.
+* Polysaccharides: sugar polymers containing more than 20 or so monosaccharide units; some have hundreds or thousands of units.</p>
+<div id="monosaccharides" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Monosaccharides</h3>
+<p>The simplest carbohydrates, which have the general formula C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>. These cannot be hydrolysed into still smaller carbohydrates. Monosaccharides are composed of 3 to 7 carbon atoms. They are classified according to the number of carbon atoms, as trioses (C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>), tetroses (C<sub>4</sub>H<sub>8</sub>O<sub>4</sub>), pentoses (C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>), hexoses (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) and heptoses (C<sub>7</sub>H<sub>14</sub>O<sub>7</sub>) in that order.</p>
+<p>Monosaccharides are colourless, crystalline solids that are freely soluble in water but insoluble in nonpolar solvents.</p>
+<p>Hexoses and pentoses exist in both open chain and ring forms.</p>
+<pre><code>* Glucose, fructose and galactose are hexoses. They are all white, crystalline, sweet-tasting substances, extremely soluble in water. 
+* Ribose is a pentose and glyceraldehyde and dihydroxyacetone are trioses. These compounds have very important roles to play in the metabolism of cells as you will learn later. 
+* Glucose is the most important sugar occurring in animals.  
+* Fructose is the commonest form of sugar in fruits. Fructose is the sweetest among naturally occurring sugars.
+* Deoxyribose which occurs in deoxyribonucleic acid (DNA) is a pentose.</code></pre>
+<ul>
+<li>The most abundant monosaccharide in nature is the six-carbon sugar <strong>D-glucose</strong>, sometimes referred to as <strong>dextrose</strong>.</li>
+</ul>
+<p>Monosaccharides have two important chemical properties. Sugars having a free aldehyde or ketone group can reduce Cu<sup>++</sup> to Cu<sup>+</sup>. These are called <strong>reducing sugars</strong>. This property is the basis for <em>Benedict’s test</em> and <em>Fehling’s test</em> to detect the presence of glucose in urine. The aldehyde or ketone group of monosaccharide can react and bind with an alcoholic group of another organic compound to join the two compounds together. This bond is called the <strong>glycosidic bond</strong>. This bond can be hydrolysed to give the original compounds.
+Monosaccharides by joining together through glycosidic bonds give rise to compound carbohydrates. The latter
+can be hydrolysed into th e component monosaccharides by water or enzyme. Compound carbohydrates can be classified.
+into two major groups, oligosaccharides made of a few molecules of monosaccharides (2 to 9) and polysaccharides composed of hundreds of simple sugar molecules (more than 9).</p>
+<ul>
+<li><strong>Disaccharides:</strong> (“two sugars”) contain two sugar subunits linked covalently. Familiar examples are sucrose (table sugar), maltose (malt sugar), and lactose (milk sugar). Disaccharides are composed of two monosaccharides.
+<ul>
+<li>A molecule of sucrose is formed from a molecule of glucose and one of fructose</li>
+<li>Sucrose does not reduce Cu<sup>++</sup> to Cu<sup>+</sup>. It is also the storage product of photo-synthesis in <em>sugarcane</em> and <em>sugarbeet</em>.</li>
+<li>Lactose or milk sugar is found in human milk and cow’s milk. It is formed of one molecule of glucose and one of galactose.</li>
+<li>Maltose or malt sugar is formed from two molecules of glucose during germination of starchy seeds. Maltose and lactose are reducing disaccharides.</li>
+<li></li>
+</ul></li>
+<li><strong>Oligosaccharides</strong>:</li>
+<li><strong>Polysaccharides:</strong> Cellulose and starch are polysaccharides (“many sugars”), which contain many sugar subunits linked together.</li>
+</ul>
+<p>Macromolecules (large molecules), such as polysaccharides,
+that are made up of similar or identical small subunits are
+known as polymers (“many parts”). The individual subunits of
+polymers are called monomers (“single parts”); polymerization
+is the stepwise linking of monomers into polymers.</p>
+</div>
+<div id="oligo" class="section level3" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Oligo</h3>
 
+</div>
 </div>
 </div>
             </section>
@@ -283,6 +412,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -291,7 +421,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-literature.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-biomolecules.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -302,7 +432,11 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["botany-book.pdf", "botany-book.epub"],
+"download": null,
+"search": {
+"engine": "lunr",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

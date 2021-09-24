@@ -1,17 +1,16 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
-
 # (PART) Diversity {.unnumbered}
 
 # Biological Classification
 
 ## The Living World
 
-```{r, echo=FALSE}
+```{r echo=FALSE}
+knitr::opts_chunk$set(comment = "#>", collapse = TRUE, fig.align = 'center',
+			    fig.width = 7, fig.height = 5, out.width = '90%', 
+			    echo=FALSE, message=FALSE, warning=FALSE)
+```
 
+```{r, echo=FALSE}
 colorize <- function(x, color) {
   if (knitr::is_latex_output()) {
     sprintf("\\textcolor{%s}{%s}", color, x)
@@ -83,17 +82,22 @@ The placement of organisms to different ranks in a systematic framework of class
 -   Higher the category; higher the number of organisms and lesser the number of common characters.\
 -   Intermediate categories are written with prefix 'super' and 'sub', e.g., superclass; subclass. Intraspecies categories (Intermediate categories)\
     Sub-species/varieties---subvariety---form/race---subform or clone
+    
+```{r t71}
 
-| Term (s)         | Author    |
-|:-----------------|:----------|
-| Phylum           | Cuvier    |
-| Division         | Eichler   |
-| Class, Order     | Linnaeus  |
-| Family, Species  | John Ray  |
-| Genus            | Toumefort |
-| Concept of Genus | Brunfels  |
-
-: **(\#tab:term-author) Terms and their Authors**
+rbind(
+  c("Phylum", "Cuvier"),
+  c("Division", "Eichler"),
+  c("Class, Order", "Linnaeus"),
+  c("Family, Species", "John Ray"),
+  c("Genus", "Toumefort"),
+  c("Concept of Genus", "Brunfels")
+	) |> 
+	as.data.frame() |>
+	knitr::kable(col.names = c("term (s)", "Author"), 
+	             caption = "Terms and their Authors") |>
+	kableExtra::row_spec(0, background = "#666", color = "#fff")
+```    
 
 -   Taxon is a taxonomic group of real organisms assigned to a category. Category represents rank/level in a hierarchy
 

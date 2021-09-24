@@ -1,0 +1,86 @@
+# (PART) Biochemistry {.unnumbered}
+
+# Biomolecules
+
+The most exciting aspect of chemistry deal with isolating thousands of compounds, small and big, from living organisms, determining their structure and if possible, synthesizing them. If one were to make a list of biomolecules, such a list would have thousands of organic compounds including amino acids, sugars, etc. We can call these biomolecules, metabolites. In animal tissues, one notices the presence of all such categories of compounds e.g., proteins, carbohydrates, fats, amino acids and nucleic acids. These are called primary metabolites. However, when one analyses plant, fungal and microbial cells, one would see thousands of compounds other than these primary metabolites e.g., alkaloids, flavonoids, rubber, essential oils, antibiotics, coloured pigments, scents, gums, spices, etc. These are called secondary metabolites (Table \@ref(tab:t1)). While primary metabolites have identifiable functions and play known roles in normal physiological processes, many secondary metabolites are useful to 'human welfare' (e.g., rubber, drugs, spices, scents and pigments). Some secondary metabolites have ecological importance.
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(comment = "#>", collapse = TRUE, fig.align = 'center',
+			    fig.width = 7, fig.height = 5, out.width = '90%', 
+			    echo=FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r t1}
+rbind(
+	c("Pigments", "Carotenoids, Anthocyanins"),
+	c("Alkaloids", "Morphine, Codeine"),
+	c("Terpenoids", "Monoterpenes, Diterpenes"),
+	c("Essential oils", "Lemon grass oil"),
+	c("Toxins", "Abrin, Ricin"),
+	c("Lectins", "Concanavalin"),
+	c("Polymeric substances", "Rubber, Gums, Cellulose"),
+	c("Drugs", "Vinblastine, curcumin")
+	) |> 
+	as.data.frame() |>
+	knitr::kable(col.names = c("Secondary Metabolites", "Examples"),
+			 caption = "Some Secondary Metabolites") |>
+	kableExtra::row_spec(0, background = "#666", color = "#fff")
+```
+
+
+In both the cells and extra-cellular fluids dibasic phosphate (HPO~4~^2-^) and monobasic phosphate (H~2~PO~4~^--^) neutralise strong acids and bases respectively. So, they act as acid-base buffers to maintain the H+ ion concentration (pH) of cellular fluids. All the macromolecules except lipids are formed by the process of polymerisation, a process in which repeating sub-units termed monomers are bound into chains of different length (Polymers) e.g., Raffinose is trisaccharide formed by polymerisation of glucose, fructose and galactose.
+
+## Carbohydrates
+
+Carbohydrates are so called because in most of them, the proportion of hydrogen and oxygen is the same as in water (H~2~O) and the general formula may be written as C~n~H~2n~O~n~. Carbohydrates also possess more than one alcoholic (-OH) group. 
+* Carbohydrates are the most abundant organic molecules in nature.
+* They are the primary energy-storage molecules in most living organisms.
+* Carbohydrate polymers also called **glycans**.
+* Complex carbohydrate polymers covalently attached to proteins or lipids called **glycoconjugates**.
+* The carbohydrates can be classified according to the number of sugar subunits they contain.
+	* Monosaccharides: simple sugars, consist of a single polyhydroxy aldehyde or ketone unit
+	* Oligosaccharides: Oligosaccharides consist of short chains of monosaccharide units, or residues, joined by characteristic linkages called **glycosidic bonds**.
+	* Polysaccharides: sugar polymers containing more than 20 or so monosaccharide units; some have hundreds or thousands of units.
+
+### Monosaccharides
+
+The simplest carbohydrates, which have the general formula C~n~H~2n~O~n~. These cannot be hydrolysed into still smaller carbohydrates. Monosaccharides are composed of 3 to 7 carbon atoms. They are classified according to the number of carbon atoms, as trioses (C~3~H~6~O~3~), tetroses (C~4~H~8~O~4~), pentoses (C~5~H~10~O~5~), hexoses (C~6~H~12~O~6~) and heptoses (C~7~H~14~O~7~) in that order. 
+
+Monosaccharides are colourless, crystalline solids that are freely soluble in water but insoluble in nonpolar solvents.
+
+Hexoses and pentoses exist in both open chain and ring forms. 
+
+	* Glucose, fructose and galactose are hexoses. They are all white, crystalline, sweet-tasting substances, extremely soluble in water. 
+	* Ribose is a pentose and glyceraldehyde and dihydroxyacetone are trioses. These compounds have very important roles to play in the metabolism of cells as you will learn later. 
+	* Glucose is the most important sugar occurring in animals.  
+	* Fructose is the commonest form of sugar in fruits. Fructose is the sweetest among naturally occurring sugars.
+	* Deoxyribose which occurs in deoxyribonucleic acid (DNA) is a pentose.
+
+* The most abundant monosaccharide in nature is the six-carbon sugar **D-glucose**, sometimes referred to as **dextrose**.
+
+Monosaccharides have two important chemical properties. Sugars having a free aldehyde or ketone group can reduce Cu^++^ to Cu^+^. These are called **reducing sugars**. This property is the basis for *Benedict's test* and *Fehling's test* to detect the presence of glucose in urine. The aldehyde or ketone group of monosaccharide can react and bind with an alcoholic group of another organic compound to join the two compounds together. This bond is called the **glycosidic bond**. This bond can be hydrolysed to give the original compounds.
+Monosaccharides by joining together through glycosidic bonds give rise to compound carbohydrates. The latter
+can be hydrolysed into th e component monosaccharides by water or enzyme. Compound carbohydrates can be classified.
+into two major groups, oligosaccharides made of a few molecules of monosaccharides (2 to 9) and polysaccharides composed of hundreds of simple sugar molecules (more than 9).
+
+* **Disaccharides:** (“two sugars”) contain two sugar subunits linked covalently. Familiar examples are sucrose (table sugar), maltose (malt sugar), and lactose (milk sugar). Disaccharides are composed of two monosaccharides. 
+	* A molecule of sucrose is formed from a molecule of glucose and one of fructose
+	* Sucrose does not reduce Cu^++^ to Cu^+^. It is also the storage product of photo-synthesis in *sugarcane* and *sugarbeet*. 
+	* Lactose or milk sugar is found in human milk and cow's milk. It is formed of one molecule of glucose and one of galactose. 
+	* Maltose or malt sugar is formed from two molecules of glucose during germination of starchy seeds. Maltose and lactose are reducing disaccharides. 
+	* 
+* **Oligosaccharides**:
+* **Polysaccharides:** Cellulose and starch are polysaccharides (“many sugars”), which contain many sugar subunits linked together.
+
+
+Macromolecules (large molecules), such as polysaccharides,
+that are made up of similar or identical small subunits are
+known as polymers (“many parts”). The individual subunits of
+polymers are called monomers (“single parts”); polymerization
+is the stepwise linking of monomers into polymers.
+
+### Oligo
+
+
+

@@ -1,0 +1,106 @@
+# (PART) Structure and Development {.unnumbered}
+
+# Morphology of Angiosperms
+
+```{r, echo=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color, 
+      x)
+  } else x
+}
+```
+
+## Classification
+
+* On the Basis of Habit:
+	* **Herbs:** Herbs are small plants with soft stems. They may be annual (e.g., Mustard -- *Brassica campestris*), biennial (e.g. Radish -- *Raphanus sativus*), or perennial (e.g.,  *Canna*).
+	* **Shrubs:** Shrubs are medium sized perennial woody plants which branch profusely from the base and attain a bushy appearance. e.g., China rose (*Hibiscus rosa-sinensis*), *Capparis decidua*.
+	* **Trees:** A tree has a main stout and woody trunk which gives off branches only at some distance above the ground, e.g., mango (*Mangifera indica*), shisham (*Dalbergia sissoo*) and banyan (*Ficus benghalensis*).  
+
+  	
+* On the Basis of Life Span:
+	* **Annuals:** The plants which complete their life cycle in a single season or few weeks or few months are called annuals. They grow and produce flowers and fruits within this period and then die off. e.g., mustard (*Brassica campestris*), pea (*Pisum sativum*), wheat (*Triticum aestivum*), maize (*Zea mays*), *Euphorbia prostrata*. 
+	* **Biennials:** The plants which complete their life cycle in two growing seasons are called biennials. In the first season, they grow vegetatively and in the next season, they produce flowers, fruits and seeds. e g. Carrot (*Daucus carota*), radish (*Raphanus sativus*) and turnip (*Brassica rapa*). 
+	* **Perennials:** These are the plants which continues to grow for many years. e.g., peach (*Prunus persica*) and apple (*Pyrus malus*). Perennials can be, monocarpic (which flower and fruit only once in life time) e.g., bamboo (*Bambusa tulda*), century plant (*Agave americana*), or polycarpic (which flower and fruit many times in life time), e.g., mango, pear.
+
+
+
+## Roots
+
+### Characters
+
+* True roots develop from radicle of seed
+* They are non green, underground. positively geotropic and negatively phototropic.
+* Roots usually do not bear buds, but buds are present for vegetative propagation in sweet potato (*Ipomoea*)
+and Indian red wood (*Dalbergia*).
+* They do not bear nodes and inter-nodes.
+* They have unicellular root hair which arise exogenously.
+* Lateral roots arise endogenously i.e., from pericycle.
+
+### Parts of Roots
+
+* **Root cap:** At the apex of root, a smooth cap shaped structure is present which is called as root cap. It is protective. 
+	* Multiple root cap is found in aerial roots of screwpine (*Pandanus*).
+	* In hydrophytes, root cap is either absent or replaced by root pocket, e.g., *Pistia*, *Lemna*, *Eichhornia*. 
+	* Absent in epiphytes, parasites, and mycorrhizal roots.
+
+* **Zone of cell formation or division:** The cells of this region are in active state of division and their number increases continuously. No vacuoles or small vacuoles are present.
+
+* **Zone of cell elongation:** Maximum growth in the cells occur in this zone. Large central vacuole is present.
+
+* **Zone of cell maturation:** The cells in this region are differentiated into permanent tissues depending upon the functions they have to perform. Root hairs are also present in this zone which help in absorption of water. 
+	* In hydrophytes, root hairs are absent because they absorb water through general body surface.
+
+### Types of Roots
+
+* **Tap roots:** They develop from radicle. The primary root grows and gives rise to secondary and tertiary roots forming tap root system. e.g., dicots. It is of two types:
+	* Racemose or deep feeder tap root system, e.g., Mango, Peepal.
+	* Cymose or surface feeder tap root system, e.g., *Pinus*, *Solanum*.
+* **Adventitious roots:** They develop from any part of the plant body other than the radicle. They are call
+adventitious roots. e.g., monocots. They are usually shallow surface feeders like fibrous roots of grasses.
+* **Seminal roots:** They develop from coleorhiza, e.g., Maize.
+
+### Modifications
+
+* **Modification of tap roots:**
+	* **Storage or fleshy tap roots:** They store food and assume various shapes. 
+		* *Fusiform:* Spindle shaped, e.g., Radish (*Raphanus sativus*).
+		* *Conical:* Cone like, e.g., Carrot (*Daucus carota*).
+		* *Napiform:* Swollen in the upper part and abruptly tapers in lower part, e.g., Turnip (*Brassica rapa*) and Beet root (*Beta vulgaris*).
+		* *Tuberous or tubercular:* The roots are thick and fleshy, but do not maintain any particular shape, e.g., Four o'clock plant (*Mirabilis*).
+	* **Respiratory root or pneumatophores or Aerophores:** Some plants like black mangrove (*Avicennia nitida*), the yellow water weed (*Ludwigia repens*), *Rhizophora* and *Sonneratia*, which grow in salty marshes, develop special kinds of roots for respiration. These roots are called respiratory roots or pneumatophores. They are conical in shape and arise from the branches of underground tap root and grow vertically upwards (i.e., negatively geotropic) into the air. The upper portions of these roots have numerous aerating pores called pneumathodes or lenticels. `r colorize("[ICFRE 2020]", "red")`
+	* **Nodulated roots:** Roots of legumes like pea (*Pisum sativum*), gram (*Cicer arietinum*), groundnut (*Arachis hypogea*), soyabean (*Glycine max*) have nodules which have nitrogen fixing bacteria of the genus *Rhizobium*. They fix atmospheric nitrogen into nitrates. This is a symbiotic relationship.
+	
+* **Modifications of adventitious roots:**
+	* **Storage adventitious roots:**
+		* **Tuberous:** Single root arises from node of stem and becomes tuberous and fleshy for storage of food, e.g., Sweet potato (*Ipomoea batata*).
+		* **Fasciculated:** Roots arise in bunch (cluster) from lower node of stem and become fleshy e.g., *Dahlia*, *Asparagus*.
+		* **Palmate roots:** The bases of the swollen fleshy roots become fused. Thus, swollen finger-like fleshy roots arise from a common point as if fingers arising from a palm, e.g., *Orchis*.
+		* **Nodulose:** Root apex becomes swollen and fleshy, e.g., Mango ginger (*Curcuma amanda*).
+		* **Beaded or moniliform:** Roots swell at different places forming beaded structure, e.g., *Vitis*, Bitter gourd (*Momordica charantia*) and some grasses.
+		* **Annulated:** Roots having series of ring like swellings, e.g., Ipecac (*Psychotria*).
+	* **Adventitious roots that provide extra support:**
+		* **Prop roots:** They arise from the branches for mechanical support as pillars. e.g., old banyan tree (*Ficus benghalensis*) and maize (*Zea mays*).
+		* **Stilt roots:** They arise from lower nodes of stem and enter the soil obliquely, e.g., Sugarcane, Maize, Screwpine.
+		* **Climbing roots:** They arise from nodes and help the plants in climbing, e.g., *Pothos*, *Piper*.
+		* **Buttress roots:** They arise from basal parts of main stem and spread in different directions in the soil, e.g., *Bombax*, *Ficus*.
+	* **Adventitious roots with special function:**
+		* **Respiratory roots:** In aquatic plants as *Jussiaea*, white spongy roots arise from branches and help in respiration.
+		* **Assimilatory or photosynthetic roots:** The aerial roots of *Tinospora* and submerged roots of *Trapa* (water chestnut) become green and synthesize food.
+		* **Sucking roots or Haustoria:** These roots suck food and water from host and are found in parasitic plants, e.g., *Cuscuta*.
+		* **Hygroscopic or Aerial roots:** These are found in epiphytes and help in absorption of moisture from the atmosphere by special tissue called **velamen**, e.g., Orchids.
+		* **Clinging roots:** These are present in the juvenile stage of Ivy (*Hedera helix*). They arise from the nodes and inter-nodes, pierce the stem of host plant and attach the plant to the host. 
+		* **Foliar roots or epiphyllous roots or leaf roots:** Leaves of *Bryophyllum* and *Bignonia* have adventitious roots on the leaf margin. In floating plant *Salvinia*, one leaf of each node is modified into root for balancing the plant in water.
+		* **Mycorrhizal roots:** Roots of *Pinus* have symbiotic association with fungus. They do not have root hairs as hyphae act as root hairs.
+
+* Plants that lack roots, e.g., *Wolfia* and *Utricularia*. These plants require less water and minerals. 
+* Plants that are all roots, e.g., *Podostemon*.
+* Water storage in *Cucurbita perennis*.
+* The adventitious roots of rice-paper plants (*Tetrapanax papyrifera*) and tree-of-heaven (*Ailanthus altissima*) can become a nuisance in gardens, often producing propagative roots 10 meters (33 feet) or more from the parent plant.
+* **Contractile roots:** In *Oxalis*, *Gladiolus*, *Crinum*, and other plants (many with bulbs), roots undergo contraction
+
+## Stems
+
